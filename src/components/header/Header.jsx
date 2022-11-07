@@ -12,9 +12,9 @@ const Header = () => {
         <div>
           <span className="header-logo">NFTBOOK.IO</span>
         </div>
-        <div style={{width: "215px",height: "31px",border: "1px solid gray",borderRadius: "10px" ,"-webkit-box-shadow": "4px 14px 5px -9px rgba(207,206,219,1)",
-    "-moz-box-shadow": "4px 14px 5px -9px rgba(207,206,219,1)",
-     "box-shadow": "4px 14px 5px -9px rgba(207,206,219,1)"}}>
+        <div style={{width: "215px",height: "31px",border: "1px solid gray",borderRadius: "10px" ,WebkitBoxShadow: "4px 14px 5px -9px rgba(207,206,219,1)",
+    MozBoxShadow: "4px 14px 5px -9px rgba(207,206,219,1)",
+     boxShadow: "4px 14px 5px -9px rgba(207,206,219,1)"}}>
           <span style={{color:"#de4e4e"}}><SearchIcon /></span>
           <span><input style={{border:"none",borderRadius:"5px"}} type="search" placeholder="Search"/></span>
         </div>
