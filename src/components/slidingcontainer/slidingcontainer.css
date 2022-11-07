@@ -1,0 +1,50 @@
+.Slidingcontainerbox{
+    width:100%;
+    height:500px;
+    background-image:url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.Slidingcontainer-item {
+    width:90%;
+    height: 450px;
+    display:flex;
+   z-index: 10;
+   color:white;
+   justify-content: space-between;
+   align-items: center;
+   margin:auto;
+}
+.Leftslidepart{
+    width:45%;
+    height:95%;
+   padding:220px 100px;
+    position: relative;
+   
+}
+.Rightslidepart{
+    width:45%;
+    height:95%;
+    position:relative;
+    right:10px;
+    top:60px;
+}
+.carousel-item img{
+    width:500px;
+     height:400px;
+}
+.Slidingcontainer-btn button{
+  margin:0 10px 0 0;
+  font-weight: 400;
+}
+.Slidingcontainer-btn button:hover{
+    background-color:#ff8080;
+    padding:0 5px;
+    font-weight:100;
+    color:white;
+}
+.leftslideparttext{
+color:rgb(6, 4, 4);
+font-weight:600;
+}
