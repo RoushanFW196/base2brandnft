@@ -4,3 +4,9 @@
     border:1px solid red;
   
 }
+.footer-body{
+    width:85%;
+    height:300px;
+    background-color:#dde6ea ;
+    margin:20px auto;
+}
